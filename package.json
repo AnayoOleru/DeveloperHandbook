@@ -1,0 +1,28 @@
+{
+  "name": "DeveloperHandbook",
+  "version": "1.0.0",
+  "description": "A handbook for developers to remember setups and error codes when developing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnayoOleru/DeveloperHandbook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnayoOleru/DeveloperHandbook/issues"
+  },
+  "homepage": "https://github.com/AnayoOleru/DeveloperHandbook#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
