@@ -1,5 +1,5 @@
 {
-  "name": "DeveloperHandbook",
+  "name": "developerhandbook",
   "version": "1.0.0",
   "description": "A handbook for developers to remember setups and error codes when developing",
   "main": "index.js",
