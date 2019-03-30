@@ -4,7 +4,8 @@
   "description": "A handbook for developers to remember setups and error codes when developing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel index.js --out-dir build",
+    "test": " nyc ---reporter=html --reporter=text mocha --timeout 30000 --exit --require babel-register test/* && npm run coverage"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,15 @@
   },
   "homepage": "https://github.com/AnayoOleru/DeveloperHandbook#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "express": "^4.16.4",
+    "mocha": "^6.0.2"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^7.0.0",
     "eslint": "^5.15.3",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0"
