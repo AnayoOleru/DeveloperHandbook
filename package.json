@@ -4,6 +4,8 @@
   "description": "A handbook for developers to remember setups and error codes when developing",
   "main": "index.js",
   "scripts": {
+    "start": "node ./build/src/index.js",
+    "prestart": "npm run build",
     "prebuild": "rm -rf ./build",
     "build": "babel ./ -d build --ignore node_modules/ --presets=env --source-maps inline --copy-files",
     "test": " nyc ---reporter=html --reporter=text mocha --timeout 30000 --exit --require babel-register test/* && npm run coverage",
@@ -21,6 +23,8 @@
   },
   "homepage": "https://github.com/AnayoOleru/DeveloperHandbook#readme",
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.3",
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
     "coveralls": "^3.0.3",
