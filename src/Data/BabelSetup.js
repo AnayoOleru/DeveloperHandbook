@@ -1,9 +1,9 @@
-const setupsData = [
+const setupBabel = [
   {
-    id: 1111,
-    title: 'How to setup Eslint',
-    body:  'Eslint is good for Linting.hhhhhhhhhh ghghghgh thththth tytytytyty yjyjyjyjyj erererererer yhyhyhyhyhyh ththththth etetetetet',
-    tags: ['eslint',
+    id: 3333,
+    title: 'How to setup Babel',
+    body: 'Babel is good for Linting.hhhhhhhhhh ghghghgh thththth tytytytyty yjyjyjyjyj erererererer yhyhyhyhyhyh ththththth etetetetet',
+    tags: ['babel',
       'setups',
     ],
   },
@@ -44,4 +44,4 @@ const setupsData = [
   // }
 ];
 
-export default setupsData;
+export default setupBabel;
